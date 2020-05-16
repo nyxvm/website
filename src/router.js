@@ -12,7 +12,7 @@ Vue.use(VueRouter);
 
 const routes = [
   {
-    path: "/app",
+    path: "/",
     component: App
   },
   {
@@ -43,10 +43,6 @@ const routes = [
     path: '/library',
     component: Library
   },
-  {
-    path: '/',
-    redirect: '/app'
-  }
 ]
 
 var router = new VueRouter({

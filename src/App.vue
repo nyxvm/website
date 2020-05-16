@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <el-row class="row-bg" justify="center" type="flex">
+    <el-row class="row-bg">
       <el-menu :default-active="activeIndex" @select="handleSelect" mode="horizontal">
         <el-menu-item index="1">{{$t('menu.index')}}</el-menu-item>
         <el-menu-item index="2">{{$t('menu.doc')}}</el-menu-item>
@@ -10,7 +10,7 @@
         <el-menu-item index="6">{{$t('menu.package')}}</el-menu-item>
       </el-menu>
     </el-row>
-    <el-row class="row-bg" justify="center" type="flex">
+    <el-row class="row-bg" id="main" justify="center" type="flex">
       <router-view></router-view>
     </el-row>
   </div>
@@ -42,8 +42,14 @@
 </script>
 
 <style>
+  .e-menu {
+    text-color: #cbcbcd !important;
+  }
+
   .el-menu-item {
     font-size: 26px !important;
   }
 
+  #main {
+  }
 </style>
