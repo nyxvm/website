@@ -1,0 +1,10 @@
+{
+  "menu": {
+    "index": "Home",
+    "doc": "Documentation",
+    "download": "Download",
+    "perf": "Performance",
+    "playground": "Playground",
+    "package": "Library"
+  }
+}

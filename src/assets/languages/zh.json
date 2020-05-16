@@ -1,0 +1,10 @@
+{
+  "menu": {
+    "index": "首页",
+    "doc": "文档",
+    "download": "下载",
+    "perf": "性能",
+    "playground": "在线运行",
+    "package": "包管理"
+  }
+}

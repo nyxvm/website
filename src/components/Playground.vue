@@ -1,6 +1,6 @@
 <template>
   <div>
-    Performance
+    Playground
   </div>
 </template>
 
@@ -11,3 +11,6 @@
     }
   }
 </script>
+
+<style scoped>
+</style>
